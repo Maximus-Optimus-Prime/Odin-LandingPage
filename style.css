@@ -1,0 +1,182 @@
+header > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 1040px;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header > p {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.div-1 {
+    display: flex;
+    padding: 80px 120px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.div-1 >* {
+    flex: 1;
+}
+
+.Hero-main-text{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.div-1 > p {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: #7f7f80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-1 > div > *{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.div-1 > div > :last-child {
+    margin-bottom: 0;
+}
+
+.div-1 button {
+    padding: 5px 25px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.div-2 {
+    padding: 20px 200px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 80px;
+}
+
+.div-2 > p {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.div-2 > div {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.div-2 figure {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.div-2 > div > * {
+    margin: 0;
+    margin-right: 30px;
+    
+}
+
+.div-2 > div > :last-child {
+    margin-right: 0;
+}
+.div-2 figure > img {
+    box-sizing: border-box;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 7px solid #3882F6;
+    border-radius: 20px;
+}
+
+.div-2 figure > figcaption {
+    text-align: center;
+}
+
+.div-3 {
+    padding: 25px 160px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.div-3 cite {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    display: flex;
+    justify-content: end;
+}
+
+.div-4 {
+    margin: 40px 60px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 35px 90px;
+    justify-content: space-between;
+}
+
+.div-4 > div {
+    display: flex;
+    flex-direction: column;    
+}
+
+.div-4 p {
+    margin: 0;
+}
+
+.div-4 > div > :first-child {
+    font-weight: 800;
+    font-size: 17px;
+}
+
+.div-4 button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 1px solid #F9FAF8;
+    font-weight: 800;
+    font-size: 16px;
+    padding: 0px 25px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+}
